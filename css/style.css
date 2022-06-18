@@ -93,8 +93,6 @@ body .wrapper .smoke1 {
   background: #1049ab;
   -webkit-filter: blur(150px);
           filter: blur(150px);
-  -webkit-backdrop-filter: blur(150px);
-          backdrop-filter: blur(150px);
   border-radius: 50%;
 }
 
@@ -107,8 +105,6 @@ body .wrapper .smoke2 {
   background: #1049ab;
   -webkit-filter: blur(150px);
           filter: blur(150px);
-  -webkit-backdrop-filter: blur(150px);
-          backdrop-filter: blur(150px);
   border-radius: 50%;
 }
 
@@ -122,8 +118,6 @@ body .wrapper .smoke3 {
   background: #1049ab;
   -webkit-filter: blur(150px);
           filter: blur(150px);
-  -webkit-backdrop-filter: blur(150px);
-          backdrop-filter: blur(150px);
 }
 
 body .wrapper .smoke4 {
