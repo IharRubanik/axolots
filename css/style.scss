@@ -19,7 +19,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1374.61px);
+    transform: translateX(-366.563vw);
   }
 }
 * {
@@ -138,7 +138,7 @@ body {
         color: #ffffff;
         width: 31vw;
         a {
-        border-radius: 0.321vw;
+          border-radius: 0.321vw;
           text-decoration: none;
           color: #ff4cbd;
           display: inline-flex;
@@ -493,7 +493,14 @@ body {
         top: 414px;
       }
       .smoke3 {
-        display: none;
+        width: 100vw;
+        height: 110.615vw;
+        background: #0A0B60;
+        bottom: auto;
+        left: 0;
+        top: 153vw;
+        border-radius: 0;
+        filter: none;
       }
       .smoke4 {
         height: 42.933vw;
@@ -505,11 +512,18 @@ body {
           #0a0b60 100%
         );
       }
+      // .water {
+      //   background-size: 1374.61px 233.64px;
+      //   top: 105vw;
+      //   width: 2749.22px;
+      //   height: 233.64px;
+      //   animation: 20s water-mobile linear infinite;
+      // }
       .water {
-        background-size: 1374.61px 233.64px;
-        top: 105vw;
-        width: 2749.22px;
-        height: 233.64px;
+        background-size: 366.563vw 48.304vw;
+        top: 103vw;
+        width: 733.125vw;
+        height: 48.304vw;
         animation: 20s water-mobile linear infinite;
       }
       .header__logo {
