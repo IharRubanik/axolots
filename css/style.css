@@ -653,7 +653,7 @@ body .wrapper .form button:hover {
   body .wrapper .population .population__top-block strong {
     margin: 0;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 30px;
   }
   body .wrapper .population .population__top-block span {
     width: 82px;
