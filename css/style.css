@@ -264,7 +264,7 @@ body .wrapper .population .population__top-block strong {
   font-style: normal;
   font-weight: 500;
   font-size: 3.333vw;
-  line-height: 3.333vw;
+  line-height: 3.75vw;
   color: #ffffff;
 }
 
@@ -469,8 +469,8 @@ body .wrapper .form button:hover {
   }
   body .wrapper .population .population__top-block strong {
     margin: 6px 0 0 0;
-    font-size: 52.5283px;
-    line-height: 53px;
+    font-size: 52px;
+    line-height: 58px;
   }
   body .wrapper .population .population__top-block span {
     width: 97px;
@@ -651,13 +651,16 @@ body .wrapper .form button:hover {
     font-size: 20px;
     line-height: 28px;
   }
+  body .wrapper .title h2 a {
+    width: 97px;
+  }
   body .wrapper .population {
     top: 604px;
     left: 50%;
     width: 356px;
     padding: 0 0 0 12px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translateX(-43%);
+            transform: translateX(-43%);
     z-index: 2;
   }
   body .wrapper .population .population__top-block {
@@ -666,11 +669,12 @@ body .wrapper .form button:hover {
     width: min-content;
   }
   body .wrapper .population .population__top-block strong {
-    margin: 0;
+    margin: 0 0 5px 0;
     font-size: 36px;
-    line-height: 30px;
+    line-height: 40px;
   }
   body .wrapper .population .population__top-block span {
+    margin: 4px 0 0 0;
     width: 82px;
     height: 34px;
     font-size: 16px;
