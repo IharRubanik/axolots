@@ -95,16 +95,7 @@ body {
       align-items: center;
       gap: 0.495vw;
       img {
-        width: 2.206vw;
-      }
-      span {
-        font-family: "Wild World";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.354vw;
-        line-height: 1.354vw;
-        color: #ffffff;
-        padding: 0 0 0.417vw 0;
+        width: 11.25vw;
       }
     }
     .title {
@@ -317,12 +308,7 @@ body {
         top: 40px;
         gap: 8px;
         img {
-          width: 35.78px;
-        }
-        span {
-          font-size: 21.787px;
-          line-height: 22px;
-          padding: 0 0 4px 0;
+          width: 181px;
         }
       }
       .title {
@@ -483,7 +469,7 @@ body {
       background-size: 100vw auto;
       height: 990px;
       background-repeat: no-repeat;
-      
+
       .smoke1 {
         width: 360px;
         height: 237px;
@@ -546,7 +532,7 @@ body {
           width: 345px;
           font-size: 20px;
           line-height: 28px;
-          a{
+          a {
             width: 97px;
           }
         }
@@ -574,6 +560,7 @@ body {
           }
         }
         .population__bottom-block {
+          margin: 11px 0 0 0;
           width: 316px;
           span {
             font-size: 18px;
