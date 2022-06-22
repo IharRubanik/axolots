@@ -325,12 +325,12 @@ body .wrapper .form .required {
   border-radius: 0;
   border: none;
   border-bottom: 0.052vw solid #302f2f;
-  font-family: "Barlow";
-  font-style: normal;
+  font-family: "Barlow" !important;
+  font-style: normal !important;
   font-weight: 500;
-  font-size: 0.833vw;
-  line-height: 0.99vw;
-  color: #302f2f;
+  font-size: 0.833vw !important;
+  line-height: 0.99vw !important;
+  color: #302f2f !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -518,8 +518,8 @@ body .wrapper .social a:hover {
     margin: 22px 0 0 0;
     height: 44px;
     border-bottom: 1px solid #302f2f;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 16px !important;
+    line-height: 19px !important;
   }
   body .wrapper .form .button {
     margin: 20px 0 0 0;
@@ -741,8 +741,8 @@ body .wrapper .social a:hover {
   body .wrapper .form .required {
     margin: 24px 0 0 0;
     height: 44px;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 16px !important;
+    line-height: 19px !important;
   }
   body .wrapper .form .button {
     width: 104px;

@@ -223,12 +223,12 @@ body {
         border-radius: 0;
         border: none;
         border-bottom: 0.052vw solid #302f2f;
-        font-family: "Barlow";
-        font-style: normal;
+        font-family: "Barlow" !important;
+        font-style: normal !important;
         font-weight: 500;
-        font-size: 0.833vw;
-        line-height: 0.99vw;
-        color: rgb(48, 47, 47);
+        font-size: 0.833vw !important;
+        line-height: 0.99vw !important;
+        color: rgb(48, 47, 47) !important;
         transition: 0.3s;
         &:focus {
           transition: 0.3s;
@@ -396,8 +396,8 @@ body {
           margin: 22px 0 0 0;
           height: 44px;
           border-bottom: 1px solid #302f2f;
-          font-size: 16px;
-          line-height: 19px;
+          font-size: 16px !important;
+          line-height: 19px !important;
         }
         .button {
           margin: 20px 0 0 0;
@@ -624,8 +624,8 @@ body {
         .required {
           margin: 24px 0 0 0;
           height: 44px;
-          font-size: 16px;
-          line-height: 19px;
+          font-size: 16px !important;
+          line-height: 19px !important;
         }
         .button {
           width: 104px;
@@ -649,7 +649,7 @@ body {
   font-family: "Barlow" !important;
   font-style: normal !important;
   font-weight: 500 !important;
-  margin: 0 !important ;
+  margin: 0 !important;
   transition: 0.3s !important;
   padding: 0 !important;
 }
