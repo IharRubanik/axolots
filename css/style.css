@@ -308,7 +308,7 @@ body .wrapper .form {
   padding: 1.198vw 1.302vw 1.563vw 1.979vw;
 }
 
-body .wrapper .form span {
+body .wrapper .form .form__title {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
@@ -318,7 +318,7 @@ body .wrapper .form span {
   color: #302f2f;
 }
 
-body .wrapper .form input {
+body .wrapper .form .required {
   margin: 1.146vw 0 0 0;
   width: 100%;
   height: 2.292vw;
@@ -335,13 +335,13 @@ body .wrapper .form input {
   transition: 0.3s;
 }
 
-body .wrapper .form input:focus {
+body .wrapper .form .required:focus {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-bottom: 0.052vw solid #ff4cbd;
 }
 
-body .wrapper .form button {
+body .wrapper .form .button {
   margin: 1.042vw 0 0 0;
   width: 5.417vw;
   height: 2.083vw;
@@ -361,7 +361,36 @@ body .wrapper .form button {
   transition: 0.3s;
 }
 
-body .wrapper .form button:hover {
+body .wrapper .form .button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .wrapper .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.563vw;
+  position: absolute;
+  right: 21.458vw;
+  top: 38.021vw;
+}
+
+body .wrapper .social a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .wrapper .social a img {
+  width: 2.708vw;
+}
+
+body .wrapper .social a:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: 0.3s;
@@ -481,24 +510,40 @@ body .wrapper .form button:hover {
     height: 226px;
     padding: 23px 25px 29px 38px;
   }
-  body .wrapper .form span {
+  body .wrapper .form .form__title {
     font-size: 18px;
     line-height: 27px;
   }
-  body .wrapper .form input {
+  body .wrapper .form .required {
     margin: 22px 0 0 0;
     height: 44px;
     border-bottom: 1px solid #302f2f;
     font-size: 16px;
     line-height: 19px;
   }
-  body .wrapper .form button {
+  body .wrapper .form .button {
     margin: 20px 0 0 0;
     width: 104px;
     height: 40px;
     border-radius: 6px;
     font-size: 15px;
     line-height: 22px;
+  }
+  body .wrapper .social {
+    gap: 26px;
+    right: 40px;
+    top: 391px;
+  }
+  body .wrapper .social a img {
+    width: 45px;
+  }
+  .mce_inline_error {
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+  .response {
+    font-size: 16px !important;
+    line-height: 19px !important;
   }
 }
 
@@ -553,6 +598,12 @@ body .wrapper .form button:hover {
     bottom: 40px;
     right: 40px;
   }
+  body .wrapper .social {
+    left: 40px;
+    right: auto;
+    bottom: 61px;
+    top: auto;
+  }
 }
 
 @media (min-aspect-ratio: 768 / 1024) and (max-width: 768px) {
@@ -572,7 +623,7 @@ body .wrapper .form button:hover {
   body .wrapper {
     background: url(../img/background-mobile.webp);
     background-size: 100vw auto;
-    height: 990px;
+    height: 1090px;
     background-repeat: no-repeat;
   }
   body .wrapper .smoke1 {
@@ -675,7 +726,7 @@ body .wrapper .form button:hover {
   }
   body .wrapper .form {
     top: auto;
-    bottom: 35px;
+    bottom: 135px;
     width: 356px;
     height: 216px;
     left: 50%;
@@ -683,21 +734,68 @@ body .wrapper .form button:hover {
             transform: translateX(-50%);
     padding: 23px 24px 19px 36px;
   }
-  body .wrapper .form span {
+  body .wrapper .form .form__title {
     font-size: 17px;
     line-height: 25px;
   }
-  body .wrapper .form input {
+  body .wrapper .form .required {
     margin: 24px 0 0 0;
     height: 44px;
     font-size: 16px;
     line-height: 19px;
   }
-  body .wrapper .form button {
+  body .wrapper .form .button {
     width: 104px;
     height: 40px;
     font-size: 14px;
     line-height: 21px;
+  }
+  body .wrapper .social {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 44px;
+  }
+}
+
+.mce_inline_error {
+  background: none !important;
+  color: #302f2f !important;
+  font-family: "Barlow" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  -webkit-transition: 0.3s !important;
+  transition: 0.3s !important;
+  padding: 0 !important;
+}
+
+.response {
+  color: #302f2f !important;
+  font-family: "Barlow" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+@media (min-width: 1025px) {
+  .mce_inline_error {
+    font-size: 0.833vw !important;
+    line-height: 0.99vw !important;
+  }
+  .response {
+    font-size: 0.833vw !important;
+    line-height: 0.99vw !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 660px) {
+  .mce_inline_error {
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+  .response {
+    font-size: 16px !important;
+    line-height: 19px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
