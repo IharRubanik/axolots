@@ -421,12 +421,12 @@ body {
     }
   }
   .mce_inline_error {
-    font-size: 16px !important;
-    line-height: 19px !important ;
+    font-size: 13px !important;
+    line-height: 17px !important ;
   }
   .response{
-    font-size: 16px !important;
-    line-height: 19px !important;
+    font-size: 13px !important;
+    line-height: 17px !important;
   }
 }
 @media (min-aspect-ratio: 1024/768) and (max-width: 1024px) {
@@ -645,7 +645,7 @@ body {
 
 .mce_inline_error {
   background: none !important;
-  color: #302f2f !important;
+  color: #ff0000 !important;
   font-family: "Barlow" !important;
   font-style: normal !important;
   font-weight: 500 !important;
@@ -654,7 +654,7 @@ body {
   padding: 0 !important;
 }
 .response {
-  color: #302f2f !important;
+  color: #ff0000 !important;
   font-family: "Barlow" !important;
   font-style: normal !important;
   font-weight: 500 !important;
@@ -662,21 +662,11 @@ body {
 }
 @media (min-width: 1025px){
 .mce_inline_error {
-  font-size: 0.833vw !important;
-  line-height: 0.99vw !important;
+  font-size: 0.677vw !important;
+  line-height: 0.885vw !important;
 }
 .response {
   font-size: 0.833vw !important;
   line-height: 0.99vw !important;
-}
-}
-@media (min-width: 0px) and (max-width: 660px) {
-.mce_inline_error {
-  font-size: 16px !important;
-  line-height: 19px !important;
-}
-.response {
-  font-size: 16px !important;
-  line-height: 19px !important;
 }
 }
